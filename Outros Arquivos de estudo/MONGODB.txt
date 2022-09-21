@@ -1,3 +1,0 @@
-Docker app para line code
-
-https://www.mongodb.com/
