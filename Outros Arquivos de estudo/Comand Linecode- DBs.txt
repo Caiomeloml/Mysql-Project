@@ -53,7 +53,7 @@ ALTER TABLE nomedatable DROP COLUMN nomedoitem
 ALTER TABLE nome_tabela MODIFY COLUMN nome_atributo tipo_dados CONDICAO;
 
 --Adicionar constraint
-ALTER TABLE nome_tabela ADD contraint_nome CONDICOES;
+ALTER TABLE nome_tabela ADD contraint_nome reference nomedatabela(itemdatabela);
 
 -- inserir dados no bd
 nomedatabela Values ('valores referentes as colums') ex:
